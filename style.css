@@ -1,40 +1,97 @@
+body {
+    font-family: 'Marvel', sans-serif;
+}
+
 header {
     background: #6b0505;
     width: 100%;
-    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 5px;
 }
 
-
+ 
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-h1 img {
+.img-logo {
     width: 350px;
-    padding: 15px;
+    margin-top: 25px;
 }
 
-nav {
+.caixa nav {
     position: absolute;
-    display: flex;
-    top: 80px;
-    left: 425px;
+    top: 45%;
+    left: 400px;
 }
 
-nav li {
+.caixa li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
-nav li a {
+.caixa a {
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     text-decoration: none;
+}
+
+.caixa a:hover{
+    font-size: 32px;
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+}
+
+/*................................................................................................*/
+
+
+.introducao {
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.web1 {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.introducao h2 {
+    font-size: 42px;
+    padding: 20px 0;
+    font-weight: bold;
+
+}
+
+.introducao p {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+
+
+.spider-andrew, .spider-tobey, .spider-tom {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 40px 25px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+}
+
+.resumo {
+    margin: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.resumo p {
+    padding: 25px 10px;
 }
