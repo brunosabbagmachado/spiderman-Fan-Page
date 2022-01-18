@@ -1,5 +1,9 @@
 header {
     background: #6b0505;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 20px 0;
 }
 
@@ -11,25 +15,26 @@ header {
 }
 
 h1 img {
-    width: 50%;
-    margin: 0 0 0 -150px;
+    width: 350px;
+    padding: 15px;
 }
 
 nav {
     position: absolute;
-    top: 110px;
-    right: 0;
+    display: flex;
+    top: 80px;
+    left: 425px;
 }
 
 nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
-nav a {
+nav li a {
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     text-decoration: none;
 }
