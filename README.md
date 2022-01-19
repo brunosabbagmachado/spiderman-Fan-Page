@@ -1,7 +1,7 @@
 # Spider-man Fan Page
 Fan Page do Homem Aranha para treinar a criação de páginas usando HTML e CSS.
 
-https://brunosabbagmachado.github.io/spiderman/
+https://brunosabbagmachado.github.io/spidermanFanPage/
 
 A ideia por trás desse projeto é a de retomar meus estudos pondo em prática o que aprendi no ano passado.
 
