@@ -63,7 +63,7 @@ header {
 
 .introducao h2 {
     font-size: 42px;
-    padding: 20px 0;
+    padding: 10px 0;
     font-weight: bold;
 
 }
@@ -73,18 +73,24 @@ header {
     font-size: 20px;
 }
 
+.imagens-spiders {
+    text-align: center;
+}
 
-
-.spider-andrew, .spider-tobey, .spider-tom {
+.spider-verse {
     display: inline-block;
     text-align: center;
-    width: 30%;
-    margin: 0 1.5%;
-    padding: 40px 25px;
+    width: 80%;
+    margin: 0 auto;
     vertical-align: top;
     box-sizing: border-box;
     border: 2px solid #000000;
+    border-radius: 5%;
 }
+
+
+/*................................................................................................*/
+
 
 .resumo {
     margin: 50px;
