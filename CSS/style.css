@@ -1,145 +1,175 @@
 body {
-    font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
 }
-
 
 /*................................................................................................*/
 /*Cabeçalho - presente em todas as páginas HTML*/
 
 header {
-    background: radial-gradient(#a30303, #3d0101);
-      width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
+  background: radial-gradient(#a30303, #3d0101);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
 }
 
-
 .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .img-logo {
-    width: 350px;
-    margin-top: 25px;
+  width: 350px;
+  margin-top: 25px;
 }
 
 .caixa nav {
-    position: absolute;
-    top: 45%;
-    left: 400px;
+  position: absolute;
+  top: 45%;
+  left: 400px;
 }
 
 .caixa li {
-    display: inline-block;
-    margin: 0 20px;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .caixa a {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 28px;
-    text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
 }
 
-.caixa a:hover{
-    font-size: 32px;
-    text-decoration: underline;
-    color: rgb(180, 180, 180);
-}
-
-
-/*................................................................................................*/
-/*Rodapé - presente em todas as páginas HTML*/
-
-footer {
-    text-align: center;
-    background: radial-gradient(rgb(36, 36, 36), black);
-}
-
-.logo-footer {
-    width: 10%;
-    margin: 20px 0 0;
-}
-
-.copyright {
-    margin: 25px 0 0;
-    padding: 10px 0 20px 0;
-    color: #FFFFFF;
-    font-size: 16px;
-
+.caixa a:hover {
+  font-size: 32px;
+  text-decoration: underline;
+  color: rgb(180, 180, 180);
 }
 
 /*................................................................................................*/
 /*Textos da Página Principal - index.html*/
 
 .introducao {
-    text-align: center;
-    margin: 20px auto;
-    padding: 5px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 5px;
 }
 
 .web1 {
-    width: 30px;
-    padding-right: 10px;
+  width: 30px;
+  padding-right: 10px;
 }
 
 .introducao h2 {
-    font-size: 42px;
-    padding: 10px 0;
-    font-weight: bold;
+  font-size: 42px;
+  padding: 10px 0;
+  font-weight: bold;
 }
 
-
 .introducao p {
-    padding: 10px 0;
-    font-size: 20px;
+  padding: 10px 0;
+  font-size: 20px;
 }
 
 .imagens-spiders {
-    text-align: center;
+  text-align: center;
 }
 
 .spider-verse {
-    display: inline-block;
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    vertical-align: top;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 5%;
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 5%;
 }
 
 .resumo-principal {
-    margin: 100px auto;
-    text-align: center;
-    font-size: 22px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 22px;
 }
 
 .resumo-principal h3 {
-    font-size: 32px;
-    padding: 15px 0;
+  font-size: 32px;
+  padding: 15px 0;
 }
 
 .resumo-principal p {
-    margin: 20px 15%;
-    padding: 15px 0;
+  margin: 20px 15%;
+  padding: 15px 0;
 }
 
+/*................................................................................................*/
+/*Rodapé - presente em todas as páginas HTML*/
+
+footer {
+  text-align: center;
+  background: radial-gradient(rgb(36, 36, 36), black);
+}
+
+.logo-footer {
+  width: 10%;
+  margin: 20px 0 0;
+}
+
+.copyright {
+  margin: 25px 0 0;
+  padding: 10px 0 20px 0;
+  color: #ffffff;
+  font-size: 16px;
+}
 
 /*................................................................................................*/
 /*Textos da página Sobre - sobre.html*/
 
-.resumo {
-    margin: 50px;
-    text-align: center;
-    font-size: 22px;
+.sobre-titulo h4 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
 }
 
-.resumo p {
-    padding: 25px 10px;
+.sobre {
+  margin: 25px 15%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.sobre p {
+  padding: 25px 50px;
+}
+
+.stan-lee,
+.steve-ditko,
+.amazing-fantasy {
+  margin: 20px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px dashed #000000;
+  border-radius: 10%;
+}
+
+.spider-comics {
+  margin: 20px;
+  width: 800px;
+  box-sizing: border-box;
+  border: 2px dashed #000000;
+  border-radius: 10%;
+}
+
+
+
+/*................................................................................................*/
+/*Textos da página Aranhas - aranhas.html*/
+
+.aranhas-intro {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
 }
