@@ -2,15 +2,19 @@ body {
     font-family: 'Marvel', sans-serif;
 }
 
+
+/*................................................................................................*/
+/*Cabeçalho - presente em todas as páginas HTML*/
+
 header {
-    background: #6b0505;
-    width: 100%;
+    background: radial-gradient(#a30303, #3d0101);
+      width: 100%;
     justify-content: space-around;
     align-items: center;
     padding: 5px;
 }
 
- 
+
 .caixa {
     position: relative;
     width: 940px;
@@ -47,8 +51,30 @@ header {
     color: rgb(180, 180, 180);
 }
 
-/*................................................................................................*/
 
+/*................................................................................................*/
+/*Rodapé - presente em todas as páginas HTML*/
+
+footer {
+    text-align: center;
+    background: radial-gradient(rgb(36, 36, 36), black);
+}
+
+.logo-footer {
+    width: 10%;
+    margin: 20px 0 0;
+}
+
+.copyright {
+    margin: 25px 0 0;
+    padding: 10px 0 20px 0;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+/*................................................................................................*/
+/*Textos da Página Principal - index.html*/
 
 .introducao {
     text-align: center;
@@ -88,9 +114,25 @@ header {
     border-radius: 5%;
 }
 
+.resumo-principal {
+    margin: 100px auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.resumo-principal h3 {
+    font-size: 32px;
+    padding: 15px 0;
+}
+
+.resumo-principal p {
+    margin: 20px 15%;
+    padding: 15px 0;
+}
+
 
 /*................................................................................................*/
-
+/*Textos da página Sobre - sobre.html*/
 
 .resumo {
     margin: 50px;
