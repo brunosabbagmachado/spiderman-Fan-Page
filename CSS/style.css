@@ -163,13 +163,52 @@ footer {
   border-radius: 10%;
 }
 
-
-
 /*................................................................................................*/
 /*Textos da página Aranhas - aranhas.html*/
 
 .aranhas-intro {
-    margin: 20px auto;
-    text-align: center;
-    font-size: 30px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.caixa-aranhas {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.caixa-aranhas li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 10px 20px 30px 20px;
+  box-sizing: border-box;
+  border: 2px dashed #000000;
+  border-top-width: 5px;
+  border-radius: 10px 10px 50px 50px;
+}
+
+.caixa-aranhas h5 {
+  font-size: 30px;
+  font-weight: bold;  
+}
+
+.caixa-aranhas img {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.aranha-descricao {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.aranha-aparicao {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
 }
