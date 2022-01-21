@@ -71,7 +71,7 @@ header {
 
 .introducao p {
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .imagens-spiders {
@@ -136,18 +136,20 @@ footer {
 }
 
 .sobre {
-  margin: 25px 15%;
+  margin: 25px 10%;
   text-align: center;
-  font-size: 22px;
+}
+
+.sobre h4 {
+  font-size: 40px;
 }
 
 .sobre p {
-  padding: 25px 50px;
+  font-size: 26px;
+  padding: 30px 0;
 }
 
-.stan-lee,
-.steve-ditko,
-.amazing-fantasy {
+.sobre-img {
   margin: 20px;
   width: 300px;
   box-sizing: border-box;
@@ -161,6 +163,7 @@ footer {
   box-sizing: border-box;
   border: 2px dashed #000000;
   border-radius: 10%;
+  margin-bottom: 50px;
 }
 
 /*................................................................................................*/
@@ -169,13 +172,23 @@ footer {
 .aranhas-intro {
   margin: 20px auto;
   text-align: center;
+
+}
+
+.aranhas-intro h5 {
+  margin: 30px 1.5%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.aranhas-intro p {
   font-size: 30px;
 }
 
 .caixa-aranhas {
   width: 940px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 .caixa-aranhas li {
@@ -186,7 +199,7 @@ footer {
   margin: 30px 1.5%;
   padding: 10px 20px 30px 20px;
   box-sizing: border-box;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   border-top-width: 5px;
   border-radius: 10px 10px 50px 50px;
 }
@@ -198,8 +211,9 @@ footer {
 
 .caixa-aranhas img {
   width: 80%;
-  padding: 10px;
   margin-top: 10px;
+  border: 0.1px solid #000000;
+  border-radius: 170px;
 }
 
 .aranha-descricao {
@@ -212,3 +226,8 @@ footer {
   font-weight: bold;
   margin-top: 10px;
 }
+
+
+
+/*................................................................................................*/
+/*Textos da página Filmes - filmes.html*/
