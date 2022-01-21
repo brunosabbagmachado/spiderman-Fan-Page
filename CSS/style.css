@@ -183,10 +183,10 @@ footer {
   text-align: center;
   width: 30%;
   vertical-align: top;
-  margin: 0 1.5%;
+  margin: 30px 1.5%;
   padding: 10px 20px 30px 20px;
   box-sizing: border-box;
-  border: 2px dashed #000000;
+  border: 2px solid #000000;
   border-top-width: 5px;
   border-radius: 10px 10px 50px 50px;
 }
