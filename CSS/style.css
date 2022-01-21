@@ -32,6 +32,7 @@ header {
 
 .caixa li {
   display: inline-block;
+  box-sizing: border-box;
   margin: 0 20px;
 }
 
@@ -41,6 +42,7 @@ header {
   font-weight: bold;
   font-size: 28px;
   text-decoration: none;
+  transition: 0.5s all;
 }
 
 .caixa a:hover {
@@ -54,8 +56,6 @@ header {
 
 .introducao {
   text-align: center;
-  margin: 20px auto;
-  padding: 5px;
 }
 
 .web1 {
@@ -63,14 +63,23 @@ header {
   padding-right: 10px;
 }
 
-.introducao h2 {
+.titulo-principal {
+  text-align: center;
   font-size: 42px;
-  padding: 10px 0;
+  padding: 1em 0;
   font-weight: bold;
 }
 
-.introducao p {
-  padding: 10px 0;
+.titulo-principal::before {
+  content: "🕸️ ";
+}
+
+.titulo-principal::after {
+  content: " 🕷️";
+}
+
+.paragrafos-principais {
+  padding: 0.5em 0;
   font-size: 30px;
 }
 
@@ -128,25 +137,9 @@ footer {
 /*................................................................................................*/
 /*Textos da página Sobre - sobre.html*/
 
-.sobre-titulo h4 {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 50px;
-  font-weight: bold;
-}
-
 .sobre {
   margin: 25px 10%;
   text-align: center;
-}
-
-.sobre h4 {
-  font-size: 40px;
-}
-
-.sobre p {
-  font-size: 26px;
-  padding: 30px 0;
 }
 
 .sobre-img {
@@ -202,6 +195,14 @@ footer {
   border: 1px solid #000000;
   border-top-width: 5px;
   border-radius: 10px 10px 50px 50px;
+  transition: 0.5s all;
+}
+
+.caixa-aranhas li:hover {
+  transform: scale(1.1);
+  border: 2px solid #a30303;
+  border-top-width: 5px;
+  color: #a30303;
 }
 
 .caixa-aranhas h5 {
@@ -212,7 +213,7 @@ footer {
 .caixa-aranhas img {
   width: 80%;
   margin-top: 10px;
-  border: 0.1px solid #000000;
+  border: none;
   border-radius: 170px;
 }
 
