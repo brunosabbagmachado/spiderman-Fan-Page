@@ -20,7 +20,7 @@ header {
 }
 
 .img-logo {
-  width: 350px;
+  width: 40%;
   margin-top: 25px;
 }
 
@@ -232,3 +232,26 @@ footer {
 
 /*................................................................................................*/
 /*Textos da página Filmes - filmes.html*/
+
+
+
+
+/*................................................................................................*/
+/*Design Responsivo*/
+
+@media screen and (max-width: 480px) {
+  .caixa, .caixa nav, .caixa-aranhas, .caixa-aranhas li {
+    width: auto;
+  }
+
+  .img-logo {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .caixa nav {
+    position: static;
+    display: inline;
+    font-size: 0.2em;
+  }
+}
