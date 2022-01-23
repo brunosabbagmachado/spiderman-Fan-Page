@@ -168,7 +168,7 @@ footer {
 
 }
 
-.aranhas-intro h5 {
+.aranhas-intro h3 {
   margin: 30px 1.5%;
   font-size: 40px;
   font-weight: bold;
@@ -233,7 +233,23 @@ footer {
 /*................................................................................................*/
 /*Textos da página Filmes - filmes.html*/
 
+.video {
+  margin: 7em auto;
+  width: 50%;
+  text-align: center;
+}
 
+.video-titulo {
+  margin: 1em;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.video-descricao {
+  margin: 2em;
+  font-size: 20px;
+
+}
 
 
 /*................................................................................................*/
@@ -244,14 +260,12 @@ footer {
     width: auto;
   }
 
-  .img-logo {
-    width: 40%;
-    margin: 0 auto;
-  }
+ .caixa {
+   text-align: center;
+ }
 
   .caixa nav {
     position: static;
-    display: inline;
-    font-size: 0.2em;
+    width: 70%;
   }
 }
