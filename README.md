@@ -12,10 +12,8 @@
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#Tabela-de-conteúdos)
-   * [Resumo](#instalacao)
-   * [Como usar](#como-usar)
-   * [Tecnologias](#tecnologias)
+   * [Explicação](#Explicação)
+   * [Projeto](#O-Projeto)
 <!--te-->
 
 # Sobre
@@ -40,7 +38,7 @@ Esse site foi desenvolvido com base nos 4 módulos de HTML5 e CSS3 da Alura, min
 Além de seguir os ensinamentos passados nos cursos, também me aventurei e pesquisei na internet várias coisas sobre HTML e CSS, para entender melhor como as coisas funcionam e como usa-las da melhor maneira.
 
 
-# Sobre o Site
+# O Projeto
 
 Esse site possuí quatro páginas:
 * [Home](https://brunosabbagmachado.github.io/spidermanFanPage/index.html);
@@ -48,11 +46,10 @@ Esse site possuí quatro páginas:
 * [Aranhas](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/aranhas.html);
 * [Filmes](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/filmes.html).
 
-A segunda página vai ser uma página com "cards" que versões do Aranha, com uma imagem e descrição.
-A terceira página vai mostrar os filmes do Aranha e terá uma interação para que seja possível ver o trailer dos filmes;.
+
+# Conclusão
 
 O projeto começou no dia **17/01** e foi concluído no dia **24/01**. 
 
 O projeto não está perfeito, mas serviu ao propósito ao qual foi pensado: me ajudar a relembrar e por em prática o aprendizado que adiquiri no ano passado.
-
 
