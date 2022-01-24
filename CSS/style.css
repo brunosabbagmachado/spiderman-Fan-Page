@@ -7,21 +7,22 @@ body {
 
 header {
   background: radial-gradient(#a30303, #3d0101);
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5px;
 }
 
 .caixa {
-  position: relative;
   width: 940px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
   margin: 0 auto;
 }
 
 .header-logo {
   width: 40%;
-  margin-top: 2em;
 }
 
 .caixa nav {
@@ -52,6 +53,7 @@ header {
 }
 
 
+
 /*................................................................................................*/
 /*Rodapé - presente em todas as páginas HTML*/
 
@@ -74,11 +76,16 @@ footer {
 }
 
 
+main {
+  margin-top: 15em;
+}
+
 /*................................................................................................*/
 /*Textos da Página Principal - index.html*/
 
 .introducao {
   text-align: center;
+ 
 }
 
 .titulo-principal {
@@ -238,12 +245,14 @@ footer {
     text-align: center;
   }
 
-   .caixa nav {
+  .caixa nav {
     position: relative;
+    right: 0;
   }
 
   .caixa li {
     margin-left: 1em;
+    margin-bottom: 1em;
   }
 
   .caixa a {
@@ -285,5 +294,9 @@ footer {
 
   .video {
     width: 80%;
+  }
+
+  main {
+    margin-top: 12em;
   }
 }
