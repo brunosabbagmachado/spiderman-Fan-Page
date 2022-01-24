@@ -232,7 +232,7 @@ footer {
 }
 
 .paragrafos-video {
-  margin: 0 3em;
+  margin: 0.5em 10em 1em;
   font-size: 20px;
 }
 
@@ -267,6 +267,10 @@ footer {
 
   .paragrafos-principais {
     font-size: 20px;
+  }
+
+  .paragrafos-video {
+    margin: 0.5em 1.5em 1em;
   }
 
   .header-logo{
