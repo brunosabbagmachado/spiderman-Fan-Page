@@ -8,8 +8,11 @@
     <img src="imagens/CSS_HTML.png" height="10%" width="10%">
 </p>
 
+**Acesse o projeto clicando [aqui](https://brunosabbagmachado.github.io/spidermanFanPage/).**
+
+![](\imagens\tela-principal.PNG)
+
 # Tabela de conteúdos
-=================
 <!--ts-->
    * [Sobre](#Sobre)
    * [Explicação](#Explicação)
@@ -25,8 +28,6 @@ Todas as imagens utilizadas e textos foram retirados da Internet e os direitos d
 Não há fins lucrativos nessa página.
 
 O Homem-Aranha sempre foi meu herói favorito. Esse ano retomei meus estudos de Frontend. Para poder relembrar do que aprendi ano passado, resolvi criar esse site. Dessa forma pude por em prática o conhecimento que tenho e ainda aprender mais enquanto construía o projeto.
-
-**[Acesso ao projeto](https://brunosabbagmachado.github.io/spidermanFanPage/)**
 
 
 # Explicação
@@ -45,6 +46,17 @@ Esse site possuí quatro páginas:
 * [Sobre](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/sobre.html);
 * [Aranhas](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/aranhas.html);
 * [Filmes](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/filmes.html).
+
+
+# Imagens
+
+![](\imagens\tela-principal.PNG)
+
+![](\imagens\tela-sobre.PNG)
+
+![](\imagens\tela-aranhas.PNG)
+
+![](\imagens\tela-aranhas-celular.PNG)
 
 
 # Conclusão
