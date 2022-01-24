@@ -2,8 +2,8 @@ body {
   font-family: "Marvel", sans-serif;
 }
 
-/*................................................................................................*/
-/*Cabeçalho - presente em todas as páginas HTML*/
+
+/*Cabeçalho - presente em todas as páginas HTML......................................................*/
 
 header {
   background: radial-gradient(#a30303, #3d0101);
@@ -22,19 +22,20 @@ header {
 }
 
 .header-logo {
-  width: 40%;
+  width: 30%;
+  margin: 1em 0 0.5em 0;
 }
 
 .caixa nav {
   position: absolute;
-  top: 45%;
+  top: 35%;
   right: 1em;
 }
 
 .caixa li {
   display: inline-block;
   box-sizing: border-box;
-  margin-left: 3em;
+  margin-left: 4em;
 }
 
 .caixa a {
@@ -52,10 +53,12 @@ header {
   color: rgb(180, 180, 180);
 }
 
+main {
+  margin-top: 12em;
+}
 
 
-/*................................................................................................*/
-/*Rodapé - presente em todas as páginas HTML*/
+/*Rodapé - presente em todas as páginas HTML...........................................................*/
 
 footer {
   text-align: center;
@@ -70,22 +73,22 @@ footer {
 }
 
 .copyright {
-  padding: 2em 0;
+  padding: 1em 0;
   color: #ffffff;
   font-size: 16px;
 }
 
-
-main {
-  margin-top: 15em;
+.icone {
+  text-align: center;
+  width: 2%;
+  margin: 1em 2em;
 }
 
-/*................................................................................................*/
-/*Textos da Página Principal - index.html*/
+
+/*Textos da Página Principal - index.html......................................................*/
 
 .introducao {
   text-align: center;
- 
 }
 
 .titulo-principal {
@@ -116,9 +119,7 @@ main {
 }
 
 
-
-/*................................................................................................*/
-/*Textos da página Sobre - sobre.html*/
+/*Textos da página Sobre - sobre.html.......................................................................*/
 
 .sobre {
   margin: 25px 10%;
@@ -141,8 +142,8 @@ main {
   border-radius: 10%;
 }
 
-/*................................................................................................*/
-/*Textos da página Aranhas - aranhas.html*/
+
+/*Textos da página Aranhas - aranhas.html..............................................................*/
 
 .aranhas-intro {
   margin: 2em auto;
@@ -201,8 +202,7 @@ main {
 
 
 
-/*................................................................................................*/
-/*Textos da página Filmes - filmes.html*/
+/*Textos da página Filmes - filmes.html..........................................................................*/
 
 .caixa-video {
   text-align: center;
@@ -236,8 +236,8 @@ main {
 
 
 
-/*................................................................................................*/
-/*Design Responsivo*/
+/*Design Responsivo....................................................................................*/
+
 
 @media screen and (max-width: 480px) {
   .caixa, .caixa nav, .caixa-aranhas {
@@ -256,19 +256,19 @@ main {
   }
 
   .caixa a {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .titulo-principal {
-    font-size: 28px;
-  }
-
-  .paragrafos-principais {
     font-size: 24px;
   }
 
+  .paragrafos-principais {
+    font-size: 20px;
+  }
+
   .header-logo{
-    width: 50%;
+    width: 30%;
   }
 
   .footer-logo {
@@ -297,6 +297,6 @@ main {
   }
 
   main {
-    margin-top: 12em;
+    margin-top: 10em;
   }
 }
