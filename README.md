@@ -8,9 +8,10 @@
     <img src="imagens/CSS_HTML.png" height="10%" width="10%">
 </p>
 
+
 **Acesse o projeto clicando [aqui](https://brunosabbagmachado.github.io/spidermanFanPage/).**
 
-![](\imagens\tela-principal.PNG)
+![Tela Principal](./imagens/tela-principal.PNG)
 
 # Tabela de conteúdos
 <!--ts-->
@@ -50,13 +51,15 @@ Esse site possuí quatro páginas:
 
 # Imagens
 
-![](\imagens\tela-principal.PNG)
+![](./imagens/tela-principal.PNG)
 
-![](\imagens\tela-sobre.PNG)
+![](./imagens/tela-sobre.PNG)
 
-![](\imagens\tela-aranhas.PNG)
+![](/imagens/tela-aranhas.PNG)
 
-![](\imagens\tela-aranhas-celular.PNG)
+<p align="center">
+     <img src="imagens/tela-aranhas-celular.PNG">
+</p>
 
 
 # Conclusão
