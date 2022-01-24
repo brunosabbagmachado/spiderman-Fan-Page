@@ -19,21 +19,21 @@ header {
   margin: 0 auto;
 }
 
-.img-logo {
+.header-logo {
   width: 40%;
-  margin-top: 25px;
+  margin-top: 2em;
 }
 
 .caixa nav {
   position: absolute;
   top: 45%;
-  left: 400px;
+  right: 1em;
 }
 
 .caixa li {
   display: inline-block;
   box-sizing: border-box;
-  margin: 0 20px;
+  margin-left: 3em;
 }
 
 .caixa a {
@@ -51,6 +51,29 @@ header {
   color: rgb(180, 180, 180);
 }
 
+
+/*................................................................................................*/
+/*Rodapé - presente em todas as páginas HTML*/
+
+footer {
+  text-align: center;
+  background: radial-gradient(rgb(36, 36, 36), black);
+  margin-top: 5em;
+}
+
+.footer-logo {
+  width: 10%;
+  box-sizing: border-box;
+  margin: 20px 0 0;
+}
+
+.copyright {
+  padding: 2em 0;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+
 /*................................................................................................*/
 /*Textos da Página Principal - index.html*/
 
@@ -58,15 +81,10 @@ header {
   text-align: center;
 }
 
-.web1 {
-  width: 30px;
-  padding-right: 10px;
-}
-
 .titulo-principal {
   text-align: center;
   font-size: 42px;
-  padding: 1em 0;
+  margin-top: 1em;
   font-weight: bold;
 }
 
@@ -79,60 +97,18 @@ header {
 }
 
 .paragrafos-principais {
-  padding: 0.5em 0;
+  margin: 1em 1em;
   font-size: 30px;
 }
 
-.imagens-spiders {
-  text-align: center;
-}
-
 .spider-verse {
-  display: inline-block;
-  text-align: center;
   width: 80%;
-  margin: 0 auto;
-  vertical-align: top;
-  box-sizing: border-box;
-  border: 2px solid #000000;
-  border-radius: 5%;
+  margin: 2em 1em;
+  border: 2px dashed #000000;
+  border-radius: 10%;
 }
 
-.resumo-principal {
-  margin: 100px auto;
-  text-align: center;
-  font-size: 22px;
-}
 
-.resumo-principal h3 {
-  font-size: 32px;
-  padding: 15px 0;
-}
-
-.resumo-principal p {
-  margin: 20px 15%;
-  padding: 15px 0;
-}
-
-/*................................................................................................*/
-/*Rodapé - presente em todas as páginas HTML*/
-
-footer {
-  text-align: center;
-  background: radial-gradient(rgb(36, 36, 36), black);
-}
-
-.logo-footer {
-  width: 10%;
-  margin: 20px 0 0;
-}
-
-.copyright {
-  margin: 25px 0 0;
-  padding: 10px 0 20px 0;
-  color: #ffffff;
-  font-size: 16px;
-}
 
 /*................................................................................................*/
 /*Textos da página Sobre - sobre.html*/
@@ -143,39 +119,27 @@ footer {
 }
 
 .sobre-img {
-  margin: 20px;
-  width: 300px;
+  margin: 2em;
+  width: 25%;
   box-sizing: border-box;
   border: 2px dashed #000000;
   border-radius: 10%;
 }
 
 .spider-comics {
-  margin: 20px;
-  width: 800px;
+  margin: 2em;
+  width: 55%;
   box-sizing: border-box;
   border: 2px dashed #000000;
   border-radius: 10%;
-  margin-bottom: 50px;
 }
 
 /*................................................................................................*/
 /*Textos da página Aranhas - aranhas.html*/
 
 .aranhas-intro {
-  margin: 20px auto;
+  margin: 2em auto;
   text-align: center;
-
-}
-
-.aranhas-intro h3 {
-  margin: 30px 1.5%;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.aranhas-intro p {
-  font-size: 30px;
 }
 
 .caixa-aranhas {
@@ -233,39 +197,93 @@ footer {
 /*................................................................................................*/
 /*Textos da página Filmes - filmes.html*/
 
-.video {
-  margin: 7em auto;
-  width: 40%;
+.caixa-video {
   text-align: center;
+  margin: 4em 0;
 }
 
 .video-titulo {
-  margin: 1em;
+  text-align: center;
   font-size: 30px;
+  margin-top: 1em;
   font-weight: bold;
 }
 
-.video-descricao {
-  margin: 2em;
-  font-size: 20px;
-
+.video-titulo::before {
+  content: "🕸️ ";
 }
+
+.video-titulo::after {
+  content: " 🕷️";
+}
+
+.video {
+  margin: 2em auto 0.1em;
+  width: 35%;
+}
+
+.paragrafos-video {
+  margin: 0 3em;
+  font-size: 20px;
+}
+
 
 
 /*................................................................................................*/
 /*Design Responsivo*/
 
 @media screen and (max-width: 480px) {
-  .caixa, .caixa nav, .caixa-aranhas, .caixa-aranhas li {
-    width: auto;
+  .caixa, .caixa nav, .caixa-aranhas {
+    width: 100%;
+    text-align: center;
   }
 
- .caixa {
-   text-align: center;
- }
+   .caixa nav {
+    position: relative;
+  }
 
-  .caixa nav {
-    position: static;
-    width: 70%;
+  .caixa li {
+    margin-left: 1em;
+  }
+
+  .caixa a {
+    font-size: 18px;
+  }
+
+  .titulo-principal {
+    font-size: 28px;
+  }
+
+  .paragrafos-principais {
+    font-size: 24px;
+  }
+
+  .header-logo{
+    width: 50%;
+  }
+
+  .footer-logo {
+    width: 25%;
+  }
+
+  .sobre-img {
+    width: 50%;
+  }
+
+  .spider-comics{
+    width: 85%;
+  }
+
+ .caixa-aranhas li {
+    width: 75%;
+    text-align: center;
+  }
+
+  .video-titulo {
+    font-size: 20px;
+  }
+
+  .video {
+    width: 80%;
   }
 }
