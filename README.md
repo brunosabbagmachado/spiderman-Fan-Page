@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="imagens/spiderman-logo.png" height="25%" width="25%">
+    <img src="imagens/spiderman-logo.png" height="35%" width="35%">
 </p>
 
 <p align="center"> <a href="https://brunosabbagmachado.github.io/spidermanFanPage/">Fan Page</a> do Homem-Aranha criada para colocar em prática conhecimentos em HTML e CSS.</p>
@@ -8,16 +8,19 @@
     <img src="imagens/CSS_HTML.png" height="10%" width="10%">
 </p>
 
-
 **Acesse o projeto clicando [aqui](https://brunosabbagmachado.github.io/spidermanFanPage/).**
 
 ![Tela Principal](./imagens/tela-principal.PNG)
 
 # Tabela de conteúdos
+
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Explicação](#Explicação)
-   * [Projeto](#O-Projeto)
+- [Sobre](#Sobre)
+- [Explicação](#Explicação)
+- [Projeto](#O-Projeto)
+- [Imagens](#Imagens)
+- [Conclusão](#Conclusão)
+- [Sobre mim](#Sobre-mim)
 <!--te-->
 
 # Sobre
@@ -43,13 +46,24 @@ Além de seguir os ensinamentos passados nos cursos, também me aventurei e pesq
 # O Projeto
 
 Esse site possuí quatro páginas:
-* [Home](https://brunosabbagmachado.github.io/spidermanFanPage/index.html);
-* [Sobre](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/sobre.html);
-* [Aranhas](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/aranhas.html);
-* [Filmes](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/filmes.html).
+
+- **[Home](https://brunosabbagmachado.github.io/spidermanFanPage/index.html)**
+- **[Sobre](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/sobre.html)**
+- **[Aranhas](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/aranhas.html)**
+- **[Filmes](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/filmes.html)**
+
+A página [Home](https://brunosabbagmachado.github.io/spidermanFanPage/index.html) é a introdução e também a explicação de o porque fiz esse site.
+
+A página [Sobre](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/sobre.html) é uma página que conta um pouco da história do Homem-Aranha e de seus criadores.
+
+A página [Aranhas](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/aranhas.html) é para mim a página mais divertida, que mostra algumas das várias versões que existem do herói. No futuro, pretendo adicionar mais Aranhas nela, por diversão.
+
+E por fim, a página [Filmes](https://brunosabbagmachado.github.io/spidermanFanPage/HTML/filmes.html) mostra os dois trailers mais recentes dos próximos lançamentos de filmes do herói, com uma breve sinopse também.
 
 
 # Imagens
+
+**Computador**
 
 ![](./imagens/tela-principal.PNG)
 
@@ -58,13 +72,38 @@ Esse site possuí quatro páginas:
 ![](/imagens/tela-aranhas.PNG)
 
 <p align="center">
-     <img src="imagens/tela-aranhas-celular.PNG">
+    <img src="imagens/tela-principal.PNG">
+    <img src="imagens/tela-sobre.PNG">
+    <img src="imagens/tela-aranhas.PNG">
+    <img src="imagens/tela-filmes.PNG">
+</p>
+
+**Celular**
+
+<p align="center">
+    <img src="imagens/tela-principal-celular.PNG">
+    <img src="imagens/tela-sobre-celular.PNG">
+    <img src="imagens/tela-aranhas-celular.PNG">
+    <img src="imagens/tela-filmes-celular.PNG">
 </p>
 
 
 # Conclusão
 
-O projeto começou no dia **17/01** e foi concluído no dia **24/01**. 
+O projeto começou no dia **17/01** e foi concluído no dia **25/01**.
 
 O projeto não está perfeito, mas serviu ao propósito ao qual foi pensado: me ajudar a relembrar e por em prática o aprendizado que adiquiri no ano passado.
+
+
+# Sobre mim
+
+Oi, eu sou o Bruno e é uma honra ter você aqui.
+
+Espero que tenha gostado do projeto. Fique a vontade para comentar, ou até melhorar o código. Será um prazer compartilhar conhecimentos.
+
+Estudando programação desde agosto de 2021 e criei esse projeto para por em prática meus conhecimentos.
+
+Me siga aqui no [Github](https://github.com/brunosabbagmachado) e também no [Linkedin](https://www.linkedin.com/in/brunosabbagmachado/).
+
+Abraços
 
