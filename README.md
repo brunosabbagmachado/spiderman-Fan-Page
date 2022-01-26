@@ -10,7 +10,9 @@
 
 **Acesse o projeto clicando [aqui](https://brunosabbagmachado.github.io/spidermanFanPage/).**
 
-![Tela Principal](./imagens/tela-principal.PNG)
+<p align="center">
+    <img src="imagens/site-pc-celular.gif" height="100%" width="100%">
+</p>
 
 # Tabela de conteúdos
 
@@ -65,26 +67,14 @@ E por fim, a página [Filmes](https://brunosabbagmachado.github.io/spidermanFanP
 
 **Computador**
 
-![](./imagens/tela-principal.PNG)
-
-![](./imagens/tela-sobre.PNG)
-
-![](/imagens/tela-aranhas.PNG)
-
 <p align="center">
-    <img src="imagens/tela-principal.PNG">
-    <img src="imagens/tela-sobre.PNG">
     <img src="imagens/tela-aranhas.PNG">
-    <img src="imagens/tela-filmes.PNG">
 </p>
 
 **Celular**
 
 <p align="center">
-    <img src="imagens/tela-principal-celular.PNG">
-    <img src="imagens/tela-sobre-celular.PNG">
     <img src="imagens/tela-aranhas-celular.PNG">
-    <img src="imagens/tela-filmes-celular.PNG">
 </p>
 
 
