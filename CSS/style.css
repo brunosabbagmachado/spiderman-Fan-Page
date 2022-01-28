@@ -15,8 +15,9 @@ header {
 }
 
 .caixa {
+  display: flex;
   width: 940px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   margin: 0 auto;
@@ -245,8 +246,15 @@ footer {
 @media screen and (max-width: 480px) {
   .caixa, .caixa nav, .caixa-aranhas {
     width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
   }
+
+  .header-logo {
+    margin: 1em auto;
+  }
+
 
   .caixa nav {
     position: relative;
