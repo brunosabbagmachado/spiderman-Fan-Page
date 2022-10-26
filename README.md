@@ -2,13 +2,13 @@
     <img src="imagens/spiderman-logo.png" height="35%" width="35%">
 </p>
 
-<p align="center"> <a href="https://brunosabbagmachado.github.io/spidermanFanPage/">Fan Page</a> do Homem-Aranha criada para colocar em prática conhecimentos em HTML e CSS.</p>
+<p align="center"> <a href="https://brunosabbagmachado.github.io/spiderman-Fan-Page/">Fan Page</a> do Homem-Aranha criada para colocar em prática conhecimentos em HTML e CSS.</p>
 
 <p align="center">
     <img src="imagens/CSS_HTML.png" height="10%" width="10%">
 </p>
 
-**Acesse o projeto clicando [aqui](https://brunosabbagmachado.github.io/spidermanFanPage/).**
+**Acesse o projeto clicando [aqui](https://brunosabbagmachado.github.io/spiderman-Fan-Page//).**
 
 <p align="center">
     <img src="imagens/site-pc-celular.gif" height="100%" width="100%">
