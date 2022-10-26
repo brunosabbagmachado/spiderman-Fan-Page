@@ -50,13 +50,17 @@ header {
 }
 
 .caixa a:hover {
-  font-size: 32px;
+  font-size: 29px;
   text-decoration: underline;
   color: rgb(180, 180, 180);
 }
 
 main {
   margin-top: 12em;
+}
+
+.inativa {
+  display: none;
 }
 
 
