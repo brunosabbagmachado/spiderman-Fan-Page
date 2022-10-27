@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
     <title>Spider-man Fan Page</title>
-
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marvel&display=swap">
@@ -22,10 +20,10 @@
 
             <nav>
                 <ul>
-                    <button class="botao--home">Home</button>
-                    <li><a href="HTML/sobre.html">Sobre</a></li>
-                    <li><a href="HTML/aranhas.html">Aranhas</a></li>
-                    <li><a href="HTML/filmes.html">Filmes</a></li>
+                    <li class="botao--home">Home</li>
+                    <li class="botao--sobre">Sobre</li>
+                    <li class="botao--aranhas">Aranhas</li>
+                    <li class="botao--filmes">Filmes</li>
                 </ul>
             </nav>
 
@@ -35,7 +33,7 @@
 
 
     <main class="conteudo">
-        <div class="introducao">
+        <section class="conteudo--home">
             <h2 class="titulo-principal">Bem vindo</h2>
 
             <p class="paragrafos-principais">Essa é uma pagina feita de fã para fãs.
@@ -59,9 +57,9 @@
                 maneira melhorar essa página, fique a vontade para contribuir com sugestões e até códigos. Será uma
                 honra para mim compartilhar e receber conhecimentos.
             </p>
-        </div>
+        </section>
 
-        <section class="conteudo--aranhas">
+        <section class="conteudo--aranhas pagina--inativa">
             <div class="aranhas-intro">
                 <h2 class="titulo-principal">As variações do personagem</h2>
 
@@ -151,6 +149,123 @@
                 </li>
             </ul>
         </section>
+
+        <section class="conteudo--filmes pagina--inativa">
+            <div class="caixa-video">
+                <h4 class="video-titulo">Homem-Aranha: Sem volta pra casa - Trailer</h4>
+
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/JfVOs4VSpmA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <p class="paragrafos-video">Em Homem-Aranha: Sem Volta para Casa, Peter Parker (Tom Holland) precisará
+                    lidar com as consequências da sua identidade após ter sido revelada pela reportagem do Clarim
+                    Diário,
+                    com uma gravação feita por Mysterio (Jake Gyllenhaal) no
+                    filme anterior. Incapaz de separar sua vida normal das aventuras de ser um super-herói, além de ter
+                    sua reputação arruinada por acharem que foi ele quem matou Mysterio e pondo em risco seus entes mais
+                    queridos, Parker pede ao Doutor Estranho (Benedict Cumberbatch) para que todos esqueçam sua
+                    verdadeira identidade. Entretanto, o feitiço não sai como planejado e a situação torna-se ainda mais
+                    perigosa quando vilões de outras versões de Homem-Aranha de outro universos acabam indo para seu
+                    mundo.</p>
+            </div>
+
+            <div class="caixa-video">
+                <h4 class="video-titulo">Homem-Aranha: Através do Aranhaverso</h4>
+
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/BbXJ3_AQE_o"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <p class="paragrafos-video">Miles Morales retorna para o próximo capítulo da saga vencedora do Oscar,
+                    Aranhaverso, uma aventura épica que transportará o Homem-Aranha do Brooklyn através do multiverso
+                    para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranhas para enfrentar um vilão mais
+                    poderoso do que qualquer outro que já encontraram.</p>
+            </div>
+        </section>
+
+        <section class="conteudo--sobre pagina--inativa">
+            <div class="sobre-titulo">
+                <h2 class="titulo-principal">Sobre o Homem-Aranha...</h2>
+            </div>
+
+            <div class="sobre">
+                <p class="paragrafos-principais">O Homem-Aranha (Spider-Man), o alter ego de Peter Parker, é um
+                    super-herói
+                    que aparece nas revistas em
+                    quadrinhos publicadas pela Marvel Comics. Criado pelo escritor/editor Stan
+                    Lee e pelo escritor/artista Steve Ditko, o Homem-Aranha apareceu pela primeira vez na Amazing
+                    Fantasy
+                    #15 (agosto de 1962), durante a Era de Prata dos Quadrinhos. Lee e Ditko conceberam o personagem
+                    como um
+                    órfão que foi educado e criado pela sua tia May e o seu tio Ben em Nova Iorque e que, enquanto
+                    adolescente, tem de lidar com as lutas diárias normais da sua idade, em adição às lutas que tem como
+                    combatente do crime. Para combater seus inimigos, os criadores deram-lhe superforça e
+                    superagilidade, a
+                    capacidade de aderir na maioria das superfícies, a habilidade de disparar teias de aranha através de
+                    mecanismos montados nos pulsos (inventados por ele próprio e batizados de "lança-teia" —
+                    web-shooters) e
+                    a reação precognitiva ao perigo chamada "sentido-aranha" (spider-sense). Peter Parker adquiriu seus
+                    poderes após ter sido picado por uma aranha radioativa.</p>
+
+                <img src="../imagens/stan-lee.jpg" alt="Imagem de Stan Lee, criador do Homem-Aranha" class="sobre-img">
+
+                <img src="../imagens/steven-ditko.jpg" alt="Imagem de Steve Ditko, criador do Homem-Aranha"
+                    class="sobre-img">
+
+                <p class="paragrafos-principais">No início dos anos 1960, quando o Homem-Aranha fez sua primeira
+                    aparição,
+                    os adolescentes nos quadrinhos
+                    de super-heróis eram habitualmente relegados para papéis secundários, como coadjuvantes. A série
+                    Spider-Man abriu um novo território ao apresentar Peter Parker, um estudante do Queens cujas
+                    "auto-obsessões com a rejeição, inadaptações e solidão" os jovens podiam se identificar. Apesar de
+                    ter todas as características de um coadjuvante, ao contrário de outros heróis adolescentes como
+                    Bucky e
+                    Robin, o Homem-Aranha não tinha nenhum super-herói mentor como o Capitão América e o Batman; ele
+                    teve
+                    que aprender sozinho que "com grande poder vem sempre uma grande responsabilidade" — uma frase
+                    incluída
+                    no último painel da primeira história do Homem-Aranha mais tarde atribuída retroativamente ao tio
+                    Ben.</p>
+
+                <img src="../imagens/amazing-fantasy.jpg" alt="Imagem do quadrinho 'Amazing Fantasy 15"
+                    class="sobre-img">
+
+                <p class="paragrafos-principais">A Marvel fez aparecer o Homem-Aranha em várias séries de revistas em
+                    quadrinhos, a primeira e mais longa
+                    chamada The Amazing Spider-Man. Ao longo dos anos, Peter Parker evoluiu de um nerd do ensino médio
+                    tímido e lerdo para um estudante universitário problemático, mas extrovertido, para um professor
+                    casado
+                    e, no final dos anos 2000, um fotografo independente (freelancer). Na década de 2010, junta-se aos
+                    Vingadores e ao Quarteto Fantástico, duas das equipes de super-heróis mais populares da Marvel.
+                </p>
+
+                <p class="paragrafos-principais">
+                    O Homem-Aranha é um dos super-heróis mais populares e mais bem-sucedidos comercialmente. Como o
+                    mascote da Marvel, já apareceu em inúmeras formas de mídia, incluindo em várias séries de televisão
+                    animadas e ao vivo, tiras de jornais sindicados, em jogos eletrônicos e numa série de filmes em que
+                    foi
+                    interpretado por Tobey Maguire (2002–2007), Andrew Garfield (2012–2014), e Tom Holland que tem o
+                    papel do personagem no Universo Cinematográfico da Marvel, começando em 2016 com Capitão América:
+                    Guerra
+                    Civil. Reeve Carney desempenhou o papel de Homem-Aranha no musical da Broadway, Spider-Man: Turn Off
+                    the
+                    Dark. O Homem-Aranha tem sido bem recebido como personagem de quadrinhos e como super-herói e quase
+                    sempre reconhecido como o personagem topo da Marvel Comics. É geralmente classificado como um dos
+                    maiores personagens de quadrinhos de todos os tempos e um dos mais populares de toda a ficção.
+                </p>
+
+                <img src="../imagens/spiders-comics.jpg" alt="Imagem de vários Homem-Aranhas dos quadrinhos"
+                    class="spider-comics">
+            </div>
+        </section>
+
 
 
     </main>

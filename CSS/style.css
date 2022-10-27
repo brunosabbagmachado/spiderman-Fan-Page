@@ -37,10 +37,10 @@ header {
 .caixa li {
   display: inline-block;
   box-sizing: border-box;
-  margin-left: 4em;
+  margin-left: 2em;
 }
 
-.caixa a {
+.caixa li {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
@@ -49,17 +49,18 @@ header {
   transition: 0.5s all;
 }
 
-.caixa a:hover {
+.caixa li:hover {
   font-size: 29px;
   text-decoration: underline;
   color: rgb(180, 180, 180);
+  cursor: pointer;
 }
 
 main {
   margin-top: 12em;
 }
 
-.inativa {
+.pagina--inativa {
   display: none;
 }
 
@@ -95,7 +96,7 @@ footer {
 
 /*Textos da Página Principal - index.html......................................................*/
 
-.introducao {
+.conteudo--home {
   text-align: center;
 }
 
