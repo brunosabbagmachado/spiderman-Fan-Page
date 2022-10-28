@@ -34,13 +34,10 @@ header {
   right: 1em;
 }
 
-.caixa li {
+.botao--home, .botao--sobre, .botao--aranhas, .botao--filmes {
   display: inline-block;
   box-sizing: border-box;
   margin-left: 2em;
-}
-
-.caixa li {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
@@ -49,11 +46,15 @@ header {
   transition: 0.5s all;
 }
 
-.caixa li:hover {
+.botao--home:hover, .botao--sobre:hover, .botao--aranhas:hover, .botao--filmes:hover {
   font-size: 29px;
   text-decoration: underline;
   color: rgb(180, 180, 180);
   cursor: pointer;
+}
+
+.botao--ativo {
+  text-decoration: underline;
 }
 
 main {
@@ -188,7 +189,7 @@ footer {
 
 .caixa-aranhas h3 {
   font-size: 30px;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .caixa-aranhas img {
@@ -249,7 +250,10 @@ footer {
 
 
 @media screen and (max-width: 480px) {
-  .caixa, .caixa nav, .caixa-aranhas {
+
+  .caixa,
+  .caixa nav,
+  .caixa-aranhas {
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
@@ -287,7 +291,7 @@ footer {
     margin: 0.5em 1.5em 1em;
   }
 
-  .header-logo{
+  .header-logo {
     width: 30%;
   }
 
@@ -299,11 +303,11 @@ footer {
     width: 50%;
   }
 
-  .spider-comics{
+  .spider-comics {
     width: 85%;
   }
 
- .caixa-aranhas li {
+  .caixa-aranhas li {
     width: 75%;
     text-align: center;
   }
