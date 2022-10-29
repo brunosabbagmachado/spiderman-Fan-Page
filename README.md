@@ -84,6 +84,8 @@ O projeto começou no dia **17/01** e foi concluído no dia **25/01**.
 
 O projeto não está perfeito, mas serviu ao propósito ao qual foi pensado: me ajudar a relembrar e por em prática o aprendizado que adiquiri no ano passado.
 
+Esta semana, **24/10 a 28/10** refatorei o projeto para ser uma SPA - single page application.
+
 
 # Sobre mim
 
